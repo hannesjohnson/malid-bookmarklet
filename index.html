@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+	
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W2BLNJJ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Málið.is bookmarklet - Fletta auðveldlega upp íslenskum orðum</title>
+  <meta name="description" content="Lítið tól sem býr til flýtileið svo þú getir auðveldlega flett upp íslenskum orðum í orðabókum til að kanna stafsetningu og málfræði. Alveg ókeypis ;)">
+  <meta name="author" content="Hannes Johnson – www.hannesjohnson.com">
+  <link rel="canonical" href="https://projects.hannesjohnson.com/malid-bookmarklet/" />
+  
+  <!-- Social Meta Data 
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  <meta property="og:locale" content="is_IS" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Málið.is bookmarklet - Fletta auðveldlega upp íslenskum orðum" />
+  <meta property="og:description" content="Lítið tól sem býr til flýtileið svo þú getir auðveldlega flett upp íslenskum orðum í orðabókum til að kanna stafsetningu og málfræði. Alveg ókeypis ;)" />
+  <meta property="og:url" content="https://projects.hannesjohnson.com/malid-bookmarklet/" />
+  <meta property="og:site_name" content="Hannes Johnson" />
+  <meta property="article:author" content="https://www.facebook.com/hannes.a.johnson" />
+  <meta property="article:tag" content="Tools" />
+  <meta property="article:tag" content="Writing" />
+  <meta property="article:tag" content="Content Marketing" />
+  <meta property="article:tag" content="Social Media" />
+  <meta property="article:section" content="Technology" />
+  <meta property="article:modified_time" content="2017-11-16" />
+  <meta property="og:image" content="https://projects.hannesjohnson.com/malid-bookmarklet/images/malid-bookmarklet-fletta-ordabok.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1800" />
+  <meta property="og:image:height" content="1350" />
+  <meta property="og:image:alt" content="Málið.is bookmarklet - Fletta í orðabók" />
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:description" content="Lítið tól sem býr til flýtileið svo þú getir auðveldlega flett upp íslenskum orðum í orðabókum til að kanna stafsetningu og málfræði. Alveg ókeypis ;)"/>
+  <meta name="twitter:title" content="Málið.is bookmarklet - Fletta auðveldlega upp íslenskum orðum"/>
+  <meta name="twitter:site" content="@HannesJohnson"/>
+  <meta name="twitter:domain" content="projects.hannesjohnson.com"/>
+  <meta name="twitter:image" content="https://projects.hannesjohnson.com/malid-bookmarklet/images/malid-bookmarklet-fletta-ordabok.jpg"/>
+  <meta name="twitter:creator" content="@HannesJohnson"/>
+   
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/favicon.png">
+
+</head>
+<body>
+	
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2BLNJJ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="two-thirds column" style="margin-top: 10%; margin-bottom: 10%; padding: 5%; background: #fff; border: 2px solid #ccc;">
+        <h1><a href="javascript:q = '' + (window.getSelection ? window.getSelection() : document.getSelection ? document.getSelection() : document.selection.createRange().text); if (!q) q = prompt('Leita á Málið.is', ''); if (q!=null) open('http://malid.is/leit/' + encodeURIComponent(q).replace(/ /g, '+') + '?utm_source=projects.hannesjohnson.com&amp;utm_medium=bookmarklet&amp;utm_campaign=malid_bookmarklet','malid_lookup','toolbar=no,width=500,height='+ screen.height*0.85 +',top='+ screen.height*0.03 +',left='+ (screen.width-500)/2);void(0)">Leita á Málið.is</a></h1>
+        <p>Dragðu þennan &uarr; hlekk upp í Bookmarks Bar (í Chrome) eða á sambærilegan stað í vafranum þínum.</p>
+		<p>Þá mun þetta líta nokkurn veginn svona út: </p> 
+		<img src="images/bookmarklet-screenshot.png" alt="Screenshot demo" title="Leita á Málið.is í Bookmarks Bar í Chrome" class="u-max-full-width">
+		<p>Þú getur þá valið (e. highlight) orð á vefsíðu og smellt á <em>Leita á Málið.is</em> til að auðveldlega fletta orðinu (eða orðunum) upp í orðabókum til að kanna stafsetningu og málfræði.</p>
+		<p>Það er hægt að nota þessa flýtileið (e. bookmarklet) þegar þú ert að skrifa texta í vafranum, í vefforritum eins og t.d.</p>
+		<img src="images/gmail-icon.png" alt="Gmail" title="Gmail" style="padding-right: 10px;">
+		<img src="images/wordpress-icon.png" alt="WordPress" title="WordPress" style="padding-right: 10px;">
+		<img src="images/medium-icon.svg" alt="Medium" title="Medium" style="padding-right: 10px;" width="64" height="64">		
+		<img src="images/facebook-icon.png" alt="Facebook" title="Facebook" style="padding-right: 10px;">
+		<img src="images/twitter-icon.svg" alt="Twitter" title="Twitter" style="padding-right: 10px;" width="64" height="64">
+		<img src="images/linkedin-icon.png" alt="LinkedIn" title="LinkedIn">
+		<hr>
+		<p><a href="http://www.hannesjohnson.com/" target="_blank" title="Ein af vefsíðunum mínum">Hannes Johnson</a> bjó þetta til. Athugasemdir og tillögur eru velkomnar í gegnum <a href="https://twitter.com/HannesJohnson" target="_blank" title="@HannesJohnson">Twitter</a>.</p>
+		<p>Nánar um <a href="https://medium.com/@HannesJohnson/litid-tol-audveldlega-fletta-upp-islenskum-ordum-d635a36ba33f" target="_blank">gerð tólsins á Medium</a>.</p>
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
